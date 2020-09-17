@@ -13,3 +13,8 @@ mod 'puppetlabs-apt',
 mod 'testrepo',
   :git => 'https://github.com/KJlt77/testrepo.git',
   :branch => 'master'
+
+mod 'puppetlabs-apache', '5.5.0'
+mod 'puppetlabs-mysql', '10.7.0'
+mod 'puppet-php', '7.1.0'
+mod 'puppetlabs-concat'
