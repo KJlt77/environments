@@ -2,6 +2,7 @@
 #^syntax detection
 
 forge "https://forgeapi.puppetlabs.com"
+
 mod 'puppetlabs-stdlib'
 
 mod 'puppetlabs-ntp',
@@ -12,4 +13,8 @@ mod 'puppetlabs-apt',
 
 mod 'testrepo',
   :git => 'https://github.com/KJlt77/testrepo.git',
+  :branch => 'master'
+
+mod 'apache',
+  :git => 'https://github.com/KJlt77/apache.git',
   :branch => 'master'
